@@ -3,7 +3,7 @@
     "description": "Alternate ReflectionExtractor for symfony/property-info",
     "require": {
         "php": "^7.1",
-        "symfony/property-info": "4.3.*"
+        "symfony/property-info": "4.4.*"
     },
     "autoload": {
         "psr-4": {
