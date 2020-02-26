@@ -18,7 +18,7 @@ class ReflectionExtractor extends SymfonyReflectionExtractor
     /**
      * {@inheritdoc}
      */
-    public function isReadable($class, $property, array $context = []): ?bool
+    public function isReadable(string $class, string $property, array $context = []): ?bool
     {
         if ($this->isAllowedProperty($class, $property)) {
             return true;
@@ -31,7 +31,7 @@ class ReflectionExtractor extends SymfonyReflectionExtractor
     /**
      * {@inheritdoc}
      */
-    public function isWritable($class, $property, array $context = []): ?bool
+    public function isWritable(string $class, string $property, array $context = []): ?bool
     {
         if ($this->isAllowedProperty($class, $property)) {
             return true;
