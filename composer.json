@@ -1,0 +1,28 @@
+{
+    "name": "pjordaan/alternate-reflection-extractor",
+    "description": "Alternate ReflectionExtractor for symfony/property-info",
+    "require": {
+        "php": "^7.1",
+        "symfony/property-info": "4.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pjordaan\\AlternateReflectionExtractor\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pjordaan\\AlternateReflectionExtractor\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pieter Jordaan",
+            "email": "pieter.jordaan@way2web.nl"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
